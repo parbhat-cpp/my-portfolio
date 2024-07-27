@@ -98,7 +98,7 @@ export const experiences = [
     jobTitle: "Full Stack Developer Intern",
     jobDescription:
       "Work as a full stack developer at RapidoForm. Here I created landing pages, implemented features and also involved in the testing of the website.",
-    imgUrl: "https://www.rapidoform.com/be/images/logo/rapidoformlogo2new.webp",
+    imgUrl: "/rapidoform.webp",
     employmentSpan: "Nov 2023 - July 2024",
     alt: "Work Experience | RapidoForm",
   }
