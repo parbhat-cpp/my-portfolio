@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="dark"] {
+    --title-color: #F9FAFB;
+    --subtitle-color: #D1D5DB;
+    --nav-btn-bg: #F9FAFB;
+    --nav-btn-txt: #111827;
+}
+
+[data-theme="light"] {
+    --title-color: #111827;
+    --subtitle-color: #4B5563;
+    --nav-btn-bg: #111827;
+    --nav-btn-txt: #F9FAFB;
+}
