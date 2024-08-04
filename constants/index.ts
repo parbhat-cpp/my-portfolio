@@ -20,6 +20,10 @@ export const skills = [
     logo: "https://img.icons8.com/color/480/javascript--v1.png",
   },
   {
+    name: "Typescript",
+    logo: "https://img.icons8.com/color/480/typescript.png",
+  },
+  {
     name: "C++",
     logo: "https://img.icons8.com/color/480/c-plus-plus-logo.png",
   },
@@ -52,6 +56,10 @@ export const skills = [
     logo: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-color-tal-revivo.png",
   },
   {
+    name: "Supabase",
+    logo: "https://img.icons8.com/fluency/240/supabase.png",
+  },
+  {
     name: "MongoDB",
     logo: "https://img.icons8.com/color/480/mongodb.png",
   },
@@ -76,6 +84,10 @@ export const skills = [
     logo: "https://img.icons8.com/color/480/material-ui.png",
   },
   {
+    name: "Tailwind CSS",
+    logo: "https://img.icons8.com/color/480/tailwindcss.png",
+  },
+  {
     name: "Sass",
     logo: "https://img.icons8.com/color/480/sass.png",
   },
@@ -95,9 +107,17 @@ export const skills = [
 
 export const experiences = [
   {
+    jobTitle: "Frontend Developer Intern",
+    jobDescription:
+      "Responsible for frontend development at Go Tripping.",
+    imgUrl: "/gotripping.png",
+    employmentSpan: "July 2024 - Present",
+    alt: "Work Experience | Go Tripping",
+  },
+  {
     jobTitle: "Full Stack Developer Intern",
     jobDescription:
-      "Work as a full stack developer at RapidoForm. Here I created landing pages, implemented features and also involved in the testing of the website.",
+      "Worked as a full stack developer at RapidoForm. Here I created landing pages, implemented features and also involved in the testing of the website.",
     imgUrl: "/rapidoform.webp",
     employmentSpan: "Nov 2023 - July 2024",
     alt: "Work Experience | RapidoForm",
