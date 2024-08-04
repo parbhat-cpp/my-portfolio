@@ -12,7 +12,7 @@ const Experience = () => {
           Here is a quick summary of my most recent experiences:
         </p>
       </div>
-      <div className="flex-col justify-center m-[2rem_0_0_0]">
+      <div className="flex flex-col gap-5 justify-center m-[2rem_0_0_0]">
         {experiences.map((experience) => (
           <ExperienceCard
             key={experience.jobTitle}
