@@ -7,6 +7,8 @@ import { Providers } from "./providers";
 import { inter } from "@/config/fonts";
 import { homeMetaData, metaKeywords } from "@/constants";
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 export const metadata: Metadata = {
   title: homeMetaData.title,
   description: homeMetaData.description,
@@ -80,6 +82,7 @@ export default function RootLayout({
           {children}
         </Providers>
       </body>
+      <GoogleAnalytics gaId="G-MD60QW157B" />
     </html>
   );
 }
