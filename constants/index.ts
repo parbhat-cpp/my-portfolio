@@ -111,7 +111,7 @@ export const experiences = [
     jobDescription:
       "Responsible for frontend development at Go Tripping.",
     imgUrl: "/gotripping.png",
-    employmentSpan: "July 2024 - Present",
+    employmentSpan: "July 2024 - September 2024",
     alt: "Work Experience | Go Tripping",
   },
   {
