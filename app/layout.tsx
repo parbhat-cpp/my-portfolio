@@ -7,7 +7,8 @@ import { Providers } from "./providers";
 import { inter } from "@/config/fonts";
 import { homeMetaData, metaKeywords } from "@/constants";
 
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: homeMetaData.title,
@@ -64,6 +65,19 @@ export const viewport: Viewport = {
   ],
 };
 
+const schemaOrgJson = {
+  "@context": "https://schema.org/",
+  "@type": "Portfolio",
+  name: "Parbhat Sharma",
+  author: {
+    "@type": "Person",
+    name: "Parbhat Sharma",
+  },
+  datePublished: "2024-07-27",
+  description: homeMetaData.description,
+  prepTime: "PT20M",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -71,7 +85,15 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head>
+        <Script
+          id="faq-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaOrgJson),
+          }}
+        />
+      </head>
       <body
         className={clsx(
           "min-h-screen bg-background inter antialiased",
