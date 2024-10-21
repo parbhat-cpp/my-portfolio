@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between w-full py-[1.2rem] px-[3rem] bg-bgPrimary">
-      <h2 className="text-3xl font-medium text-titleColor">{"<PS />"}</h2>
+      <Link href={"/"}>
+        <h2 className="text-3xl font-medium text-titleColor">{"<PS />"}</h2>
+      </Link>
       <div className="sm:flex hidden items-center">
         <div className="flex items-center text-subtitleColor gap-3 mx-5">
           <Link href="#about">About</Link>

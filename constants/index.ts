@@ -64,12 +64,12 @@ export const skills = [
     logo: "https://img.icons8.com/color/480/mongodb.png",
   },
   {
-    name: "My SQL",
-    logo: "https://img.icons8.com/color/480/my-sql.png",
+    name: "PostgreSQL",
+    logo: "https://img.icons8.com/color/500/postgreesql.png",
   },
   {
-    name: "JSON",
-    logo: "https://img.icons8.com/color/96/json--v1.png",
+    name: "Python",
+    logo: "https://img.icons8.com/fluency/240/python.png",
   },
   {
     name: "Redux",
@@ -98,10 +98,6 @@ export const skills = [
   {
     name: "Postman",
     logo: "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
-  },
-  {
-    name: "Render",
-    logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVR4Ae1WgUZEQRRdgP6iAAEFWlDRm3kAlUCUQKuKhFVYELBUAUhEIWwRvL13+5AAbG/u9gsBlPPstWOjXs16ln2XA8fM3DMzd+aeShll/BZV15oyjtas40sr9GAdt75B2tsYa1171Th66mM/49KOGXBc/1Ny6zqbVujdCn/+BCN0no0XOvW4W3BGuDbg+Dl/cqEznVi4AOx8KMmHcXQfCR9Zod1hRELVLFkvmUNCIHK0BC7qJrPKmZRsrjvHsXuqX83by0ylqEDB+TuPuzwdtl6yaIVuMqS0l2MCX6kA4/guJPm/agBPzSuk4+IFOH70TuAgVMBKj+aN40YGoY1AAeFRuAAjyYIVagKx8FaggPAamDwB+CWt0AVgUt6ZvCJEf0CTAmLh9bII801wfA3EwsuhAtCW4Q0A6zqHlbEPeDg1EDAT2lKVw9+uP5xyIzUkMI/endXAoZd7ddHoc03l8MYDLNnYCeA6BgJ6ZHAyymlLRWNRTn84vHPltOCwhlFO6GQ4XxllfAG7WqXJbe+TdQAAAABJRU5ErkJggg==",
   },
 ];
 
