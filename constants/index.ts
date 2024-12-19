@@ -122,6 +122,14 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "GenCap",
+    source_code: "https://github.com/parbhat-cpp/gencap",
+    content: "A social media caption generator which utilises the Llame vision API to process and generate the best captions for you.",
+    img: "https://iili.io/2wvr0cx.webp",
+    url: "https://parbhat-cpp.github.io/gencap/",
+    tech: ["React.js", "Tailwind", "Node.js", "Express.js", "Cloudflare R2", "Llama vision API"],
+  },
+  {
     name: "Party Tube",
     source_code: "https://github.com/parbhat-cpp/partytube-app",
     content:
@@ -145,14 +153,6 @@ export const projects = [
       "A Google search engine clone which can search and provide a result based on your query. It uses Google custom search engine to get result from the web",
     url: "https://boisterous-sable-4a425d.netlify.app/",
     img: "https://iili.io/JffYEOP.md.png",
-    tech: ["React.js", "Material UI"],
-  },
-  {
-    name: "IMDb Clone",
-    source_code: "https://github.com/parbhat-cpp/imdb-clone",
-    content:
-      "A site which contains rating of various kind of movies. It also helps lists different categories of movies according to the users's query",
-    img: "https://iili.io/JffYjqJ.md.png",
     tech: ["React.js", "Material UI"],
   },
 ];
