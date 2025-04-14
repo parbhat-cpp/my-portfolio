@@ -103,11 +103,11 @@ export const skills = [
 
 export const experiences = [
   {
-    jobTitle: "Frontend Developer Intern",
+    jobTitle: "Full Stack Developer Intern",
     jobDescription:
-      "Responsible for frontend development at Go Tripping.",
+      "Worked as a Full Stack intern at GoTripping. Here I created landing pages, developed APIs, implemented end-to-end features like PDF generation, Static Maps, etc.",
     imgUrl: "/gotripping.png",
-    employmentSpan: "July 2024 - September 2024",
+    employmentSpan: "July 2024 - September 2024 | January 2025 - Current",
     alt: "Work Experience | Go Tripping",
   },
   {
@@ -122,20 +122,20 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "WeTube",
+    source_code: "https://github.com/parbhat-cpp/wetube-app",
+    content:
+      "An Android app which connects its users across the world and helps them to watch YouTube videos as well as comunicate with each other.",
+    img: "https://iili.io/3lW9Ig2.png",
+    tech: ["Flutter", "Nest.js", "AWS", "Socket.io", "Docker", "Redis", "Bloc", "Supabase", "PostgreSQL"],
+  },
+  {
     name: "GenCap",
     source_code: "https://github.com/parbhat-cpp/gencap",
     content: "A social media caption generator which utilises the Llame vision API to process and generate the best captions for you.",
     img: "https://iili.io/2wvr0cx.webp",
     url: "https://parbhat-cpp.github.io/gencap/",
     tech: ["React.js", "Tailwind", "Node.js", "Express.js", "Cloudflare R2", "Llama vision API"],
-  },
-  {
-    name: "Party Tube",
-    source_code: "https://github.com/parbhat-cpp/partytube-app",
-    content:
-      "An Android app which connects its users across the world and helps them to watch YouTube videos as well as comunicate with each other.",
-    img: "https://iili.io/d27t5KJ.png",
-    tech: ["Flutter", "Node.js", "Express.js", "Socket.io"],
   },
   {
     name: "Flipkart Clone",
@@ -158,7 +158,7 @@ export const projects = [
 ];
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1HRrDrUMgtYLa2I04sglQzEfF6x-oltK4/view?usp=drive_link";
+  "https://drive.google.com/file/d/1aE4AIMv8Yjxt8QgMwBXF1F8mjqic2eqH/view?usp=drive_link";
 
 export const metaKeywords = [
   "Parbhat Sharma",
