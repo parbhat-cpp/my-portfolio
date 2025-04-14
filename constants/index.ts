@@ -127,7 +127,7 @@ export const projects = [
     content:
       "An Android app which connects its users across the world and helps them to watch YouTube videos as well as comunicate with each other.",
     img: "https://iili.io/3lW9Ig2.png",
-    tech: ["Flutter", "Nest.js", "AWS", "Socket.io", "Docker", "Redis", "Bloc", "Supabase", "PostgreSQL"],
+    tech: ["Flutter", "Nest.js", "AWS", "Socket.io", "Docker", "Redis", "Getx", "Supabase", "PostgreSQL"],
   },
   {
     name: "GenCap",
