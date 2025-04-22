@@ -86,8 +86,8 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head>
-        <Script
-          id="faq-schema"
+        <script
+          key="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(schemaOrgJson),
