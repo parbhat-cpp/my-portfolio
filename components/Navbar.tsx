@@ -14,7 +14,7 @@ const Navbar = () => {
   const [open, setOpen] = useAtom(openMenu);
 
   return (
-    <div className="flex items-center justify-between w-full py-[1.2rem] px-[3rem] bg-bgPrimary">
+    <div className="sticky top-0 left-0 flex items-center justify-between w-full py-[1.2rem] px-[3rem] bg-bgPrimary z-50">
       <Link href={"/"}>
         <h2 className="text-3xl font-medium text-titleColor">{"<PS />"}</h2>
       </Link>

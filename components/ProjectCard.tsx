@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Tag from "./Tag";
 import { GithubIcon, RedirectIcon } from "./icons";
+import Link from "next/link";
 
 interface IProjectCardProps {
   projectTitle: string;
@@ -25,10 +26,6 @@ const ProjectCard = (props: IProjectCardProps) => {
     liveLink,
     reverse,
   } = props;
-
-  const redirectToLink = (link: string) => {
-    window.open(link);
-  };
 
   return (
     <div
@@ -59,14 +56,14 @@ const ProjectCard = (props: IProjectCardProps) => {
         </div>
         <div className="flex gap-3 text-subtitleColor">
           {liveLink && (
-            <button onClick={() => redirectToLink(liveLink)}>
+            <Link aria-label={projectTitle} href={liveLink}>
               <RedirectIcon />
-            </button>
+            </Link>
           )}
           {githubLink && (
-            <button onClick={() => redirectToLink(githubLink)}>
+            <Link aria-label={projectTitle} href={githubLink}>
               <GithubIcon />
-            </button>
+            </Link>
           )}
         </div>
       </div>

@@ -1,24 +1,20 @@
 import React from "react";
 import { GithubIcon, InstagramIcon, TwitterIcon } from "./icons";
 import { socialsLink } from "@/constants";
+import Link from "next/link";
 
 const Socials = () => {
-
-  const redirectToLink = (link: string) => {
-    window.open(link);
-  };
-
   return (
     <div className="flex gap-3">
-      <button onClick={() => redirectToLink(socialsLink.github)}>
+      <Link aria-label="Github Link" href={socialsLink.github}>
         <GithubIcon />
-      </button>
-      <button onClick={() => redirectToLink(socialsLink.twitter)}>
+      </Link>
+      <Link aria-label="Twitter/X Link" href={socialsLink.twitter}>
         <TwitterIcon />
-      </button>
-      <button onClick={() => redirectToLink(socialsLink.instagram)}>
+      </Link>
+      <Link aria-label="Instagram Link" href={socialsLink.instagram}>
         <InstagramIcon />
-      </button>
+      </Link>
     </div>
   );
 };

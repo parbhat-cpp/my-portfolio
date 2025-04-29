@@ -4,6 +4,7 @@ import { CopyIcon, EmailIcon } from "./icons";
 import copy from "clipboard-copy";
 import Socials from "./Socials";
 import { myEmail } from "@/constants";
+import Link from "next/link";
 
 const Contact = () => {
   const copyEmail = async () => {
@@ -26,7 +27,9 @@ const Contact = () => {
           </p>
           <div className="flex items-center justify-center gap-2 md:text-3xl text-2xl">
             <EmailIcon />
-            <p>{myEmail}</p>
+            <Link aria-label="Contact Email" href={`mailto:${myEmail}`}>
+              {myEmail}
+            </Link>
             <button onClick={() => copyEmail()}>
               <CopyIcon />
             </button>
