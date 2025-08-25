@@ -107,7 +107,7 @@ export const experiences = [
     jobDescription:
       "Worked as a Full Stack intern at GoTripping. Here I created landing pages, developed APIs, implemented end-to-end features like PDF generation, Static Maps, etc.",
     imgUrl: "/gotripping.png",
-    employmentSpan: "July 2024 - September 2024 | January 2025 - Current",
+    employmentSpan: "July 2024 - September 2024 | January 2025 - April 2025",
     alt: "Work Experience | Go Tripping",
   },
   {
