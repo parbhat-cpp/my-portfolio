@@ -139,6 +139,7 @@ export const projects = [
     content: "A Text based ML model to predict whether the provided user input contains any suicidal/depression indication",
     img: "https://img.icons8.com/matisse/100/depression.png",
     tech: ["Python", "FastAPI", "scikit-learn", "Numpy", "Pandas", "Kaggle", "Docker"],
+    url: "https://suicidal-ml-production.up.railway.app/",
   },
   {
     name: "WeTube",
