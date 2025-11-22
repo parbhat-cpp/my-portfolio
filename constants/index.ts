@@ -45,7 +45,7 @@ export const skills = [
   },
   {
     name: "Fast API",
-    logo: "https://avatars.githubusercontent.com/u/156354296?s=200&v=4",
+    logo: "https://icon.icepanel.io/Technology/svg/FastAPI.svg",
   },
   {
     name: "Next.js",
@@ -77,7 +77,7 @@ export const skills = [
   },
   {
     name: "Docker",
-    logo: "https://img.icons8.com/external-those-icons-flat-those-icons/24/external-Docker-Logo-social-media-those-icons-flat-those-icons.png",
+    logo: "https://icon.icepanel.io/Technology/svg/Docker.svg",
   },
   {
     name: "Python",
@@ -137,7 +137,7 @@ export const projects = [
     name: "Text Based Suidical Classifier",
     source_code: "https://github.com/parbhat-cpp/suicidal-ml",
     content: "A Text based ML model to predict whether the provided user input contains any suicidal/depression indication",
-    img: "https://img.icons8.com/matisse/100/depression.png",
+    img: "https://img.icons8.com/?size=250&id=BpLbZWx0U6QT&format=png",
     tech: ["Python", "FastAPI", "scikit-learn", "Numpy", "Pandas", "Kaggle", "Docker"],
     url: "https://suicidal-ml-production.up.railway.app/",
   },
