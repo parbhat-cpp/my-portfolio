@@ -44,6 +44,10 @@ export const skills = [
     logo: "https://img.icons8.com/color/480/express-js.png",
   },
   {
+    name: "Fast API",
+    logo: "https://avatars.githubusercontent.com/u/156354296?s=200&v=4",
+  },
+  {
     name: "Next.js",
     logo: "https://img.icons8.com/fluency/240/000000/nextjs.png",
   },
@@ -66,6 +70,14 @@ export const skills = [
   {
     name: "PostgreSQL",
     logo: "https://img.icons8.com/color/500/postgreesql.png",
+  },
+  {
+    name: "Redis",
+    logo: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-redis-an-in-memory-data-structure-project-implementing-a-distributed-logo-color-tal-revivo.png",
+  },
+  {
+    name: "Docker",
+    logo: "https://img.icons8.com/external-those-icons-flat-those-icons/24/external-Docker-Logo-social-media-those-icons-flat-those-icons.png",
   },
   {
     name: "Python",
@@ -122,6 +134,13 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Text Based Suidical Classifier",
+    source_code: "https://github.com/parbhat-cpp/suicidal-ml",
+    content: "A Text based ML model to predict whether the provided user input contains any suicidal/depression indication",
+    img: "https://img.icons8.com/matisse/100/depression.png",
+    tech: ["Python", "FastAPI", "scikit-learn", "Numpy", "Pandas", "Kaggle", "Docker"],
+  },
+  {
     name: "WeTube",
     source_code: "https://github.com/parbhat-cpp/wetube-app",
     content:
@@ -136,24 +155,6 @@ export const projects = [
     img: "https://iili.io/2wvr0cx.webp",
     url: "https://parbhat-cpp.github.io/gencap/",
     tech: ["React.js", "Tailwind", "Node.js", "Express.js", "Cloudflare R2", "Llama vision API"],
-  },
-  {
-    name: "Flipkart Clone",
-    source_code: "https://github.com/parbhat-cpp/flipkart-clone-mern",
-    content:
-      "It is a clone of an e commerce website Flipkart and I have tried to make it look as similar as possible. I have used React, Redux, Node.js, MongoDB in this project.",
-    url: "https://flipkartclone-mern.onrender.com/",
-    img: "https://iili.io/JffYVzF.md.png",
-    tech: ["React.js", "MongoDB", "Node.js", "Express.js", "Material UI"],
-  },
-  {
-    name: "Google Clone",
-    source_code: "https://github.com/parbhat-cpp/googleclone",
-    content:
-      "A Google search engine clone which can search and provide a result based on your query. It uses Google custom search engine to get result from the web",
-    url: "https://boisterous-sable-4a425d.netlify.app/",
-    img: "https://iili.io/JffYEOP.md.png",
-    tech: ["React.js", "Material UI"],
   },
 ];
 
