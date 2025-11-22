@@ -14,8 +14,7 @@ const About = () => {
         <div className="grid gap-5 m-[2.5rem_0_0_0] w-full text-subtitleColor">
           <p>
             Hello! My name is Parbhat Sharma, and I am currently pursuing a
-            Bachelor of Science degree in Computer Science at Government
-            Autonomous College, Rourkela. I am set to graduate in 2025. During
+            MCA at Noida Institute of Engineering and Technology. During
             my studies, I have developed a strong foundation in computer science
             principles and practical skills, which I have applied in various
             projects.
