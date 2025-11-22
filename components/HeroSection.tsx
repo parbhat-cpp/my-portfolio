@@ -13,8 +13,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-lg text-subtitleColor">
             I am skilled full-stack developer with a strong background in React,
-            Next.js, HTML, CSS, MongoDB, Node.js, etc. Currently pursuing a BSc
-            in Computer Science, I have hands-on experience building full-stack
+            Next.js, MongoDB, Postgres, Node.js, Python, etc. I have hands-on experience building full-stack
             projects, including web applications and mobile apps.. I am
             Passionate about coding, and enjoys working with like-minded people
             who appreciate creativity and care for quality work.
@@ -22,7 +21,7 @@ const HeroSection = () => {
           <div className="grid gap-7 text-subtitleColor">
             <div className="flex items-center">
               <LocationIcon />
-              Rourkela, India
+              Noida, India
             </div>
             <Socials />
           </div>
