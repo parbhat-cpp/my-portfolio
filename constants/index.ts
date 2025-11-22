@@ -134,7 +134,7 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Text Based Suidical Classifier",
+    name: "Text Based Suicidal Classifier",
     source_code: "https://github.com/parbhat-cpp/suicidal-ml",
     content: "A Text based ML model to predict whether the provided user input contains any suicidal/depression indication",
     img: "https://img.icons8.com/?size=250&id=BpLbZWx0U6QT&format=png",
