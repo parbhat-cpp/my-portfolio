@@ -132,6 +132,20 @@ export const experiences = [
   }
 ];
 
+export const openSourceContributions = [
+  {
+    projectName: "Elastic UI",
+    description:
+      "Contributed to the Elastic UI component library by refactoring Popover component from class-based to functional component, improving accessibility and performance.",
+    logoUrl: "https://eui.elastic.co/images/eui_logo.svg",
+    alt: "Open Source | Elastic UI",
+    technologies: ["React", "TypeScript", "Jest"],
+    repositoryUrl: "https://github.com/elastic/eui",
+    prLink: "https://github.com/elastic/eui/pull/9537",
+    contributionDate: "March 2026 - April 2026",
+  },
+];
+
 export const projects = [
   {
     name: "Fuse",

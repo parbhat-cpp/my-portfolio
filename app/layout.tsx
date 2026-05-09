@@ -11,7 +11,10 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: homeMetaData.title,
+  title: {
+    default: homeMetaData.title,
+    template: "%s | " + homeMetaData.creatorName,
+  },
   description: homeMetaData.description,
   generator: "Next.js",
   applicationName: homeMetaData.title,
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
   keywords: metaKeywords,
   metadataBase: new URL(process.env.URL as string),
   alternates: {
-    canonical: "/*",
+    canonical: "/",
   },
   openGraph: {
     title: homeMetaData.title,
@@ -34,23 +37,31 @@ export const metadata: Metadata = {
     countryName: "India",
     images: [
       {
-        url: "https://iili.io/d9LjC3N.jpg",
-        width: 800,
-        height: 600,
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: homeMetaData.creatorName,
       },
     ],
     locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: homeMetaData.title,
+    description: homeMetaData.description,
+    images: ["/og-image.jpg"],
+    creator: "@ParbhatSharma29",
+  },
   category: "technology",
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    nocache: true,
+    nocache: false,
     googleBot: {
       index: true,
-      follow: false,
-      noimageindex: true,
+      follow: true,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
@@ -65,18 +76,44 @@ export const viewport: Viewport = {
   ],
 };
 
-const schemaOrgJson = {
-  "@context": "https://schema.org/",
-  "@type": "Portfolio",
-  name: "Parbhat Sharma",
-  author: {
+const schemaOrgJson = [
+  {
+    "@context": "https://schema.org",
     "@type": "Person",
-    name: "Parbhat Sharma",
+    name: homeMetaData.creatorName,
+    url: process.env.URL,
+    email: "parbhats660@gmail.com",
+    jobTitle: "Full Stack Developer",
+    description: homeMetaData.description,
+    knowsAbout: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Full Stack Development",
+      "Web Development",
+      "Mobile Development",
+    ],
+    sameAs: [
+      "https://github.com/parbhat-cpp",
+      "https://twitter.com/ParbhatSharma29",
+      "https://www.instagram.com/_parbhat.sharma_/",
+    ],
   },
-  datePublished: "2024-07-27",
-  description: homeMetaData.description,
-  prepTime: "PT20M",
-};
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: homeMetaData.creatorName,
+    url: process.env.URL,
+    description: homeMetaData.description,
+    author: {
+      "@type": "Person",
+      name: homeMetaData.creatorName,
+    },
+  },
+];
 
 export default function RootLayout({
   children,
@@ -97,7 +134,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background inter antialiased",
-          inter.variable
+          inter.variable,
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
