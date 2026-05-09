@@ -134,20 +134,20 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Text Based Suicidal Classifier",
+    name: "Fuse",
+    source_code: "https://github.com/parbhat-cpp/fuse",
+    content: "A Room based fun activities center",
+    img: "https://iili.io/BtQvXrN.png",
+    tech: ["React.js", "Nest.js", "Tanstack", "Supabase", "Docker", "Python", "Express.js", "Nginx", "Node.js", "Go lang", "Redis", "Postgresql", "Bullmq"],
+    url: "http://fuse.centralindia.cloudapp.azure.com/",
+  },
+  {
+    name: "Mental Health Distress Classifier",
     source_code: "https://github.com/parbhat-cpp/suicidal-ml",
     content: "A Text based ML model to predict whether the provided user input contains any suicidal/depression indication",
     img: "https://img.icons8.com/?size=250&id=BpLbZWx0U6QT&format=png",
     tech: ["Python", "FastAPI", "scikit-learn", "Numpy", "Pandas", "Kaggle", "Docker"],
     url: "https://suicidal-ml-production.up.railway.app/",
-  },
-  {
-    name: "WeTube",
-    source_code: "https://github.com/parbhat-cpp/wetube-app",
-    content:
-      "An Android app which connects its users across the world and helps them to watch YouTube videos as well as comunicate with each other.",
-    img: "https://iili.io/3lW9Ig2.png",
-    tech: ["Flutter", "Nest.js", "AWS", "Socket.io", "Docker", "Redis", "Getx", "Supabase", "PostgreSQL"],
   },
   {
     name: "GenCap",
@@ -160,17 +160,25 @@ export const projects = [
 ];
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1SBxFNu0Bwwc6CYTUEz2sa8D_6uVRRroP/view?usp=sharing";
+  "https://drive.google.com/file/d/1RoYG44h9kqvFQ6mbMUhXUUOgvFFLkYYH/view?usp=drive_link";
 
 export const metaKeywords = [
   "Parbhat Sharma",
   "Portfolio",
   "Computer Science",
   "Bsc",
+  "Full stack developer",
   "Next.js",
   "MERN",
   "Web development",
   "Developer",
+  "OSS",
+  "Open source contribution",
+  "Elastic UI Contributor",
+  "Open source contributor",
+  "Microservice",
+  "Technology",
+  "SEO",
 ];
 
 export const homeMetaData: any = {
