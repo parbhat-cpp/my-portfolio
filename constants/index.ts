@@ -174,7 +174,7 @@ export const projects = [
 ];
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1J8nDJnfdbUSGm82ORi283zc6vlxfEZc_/view?usp=sharing";
+  "https://drive.google.com/file/d/13j1sgwiWCz_2Bg9RiNnRx5juRHUj5y5E/view?usp=sharing";
 
 export const metaKeywords = [
   "Parbhat Sharma",
